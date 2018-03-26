@@ -36,7 +36,8 @@ $('#submit-button').on("click", function(event){
 $(document).on("click", "#button-place",  function(event) {
     var searchText = $(event.target).text()
     var queryURL = `http://api.giphy.com/v1/gifs/search?q=${searchText}&api_key=0PQbe7T3TcjDCI5KA7ZAcbqmxUE7LSnD`;
-   
+// clead out the giphs before making the ajax call
+    $("#gyph-place").empty(); 
     $.ajax({
         url:queryURL,
         method: "GET"
