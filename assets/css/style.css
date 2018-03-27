@@ -1,3 +1,19 @@
+
+#button-place{
+    display: flex; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+#gyph-place {
+    display: flex; 
+}
+
+#gifWrapper {
+    margin: 5px;  
+}
+
+
 button {
     height: 60px; 
     width: 100px; 
@@ -13,7 +29,12 @@ button {
     color: white; 
 }
 
+.rating {
+    text-align: center; 
+}
+
 .theImg {
     height: 150px; 
     width: 200px; 
+    float: right; 
 }
